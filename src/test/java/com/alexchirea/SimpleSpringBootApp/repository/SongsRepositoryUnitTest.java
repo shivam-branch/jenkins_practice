@@ -27,7 +27,7 @@ class SongsRepositoryUnitTest {
         List<Song> songs = songsRepository.getAll();
 
         // assert
-        assertThat(songs.size()).isEqualTo(3);
+        assertThat(songs.size()).isEqualTo(4);
     }
 
     @Test
