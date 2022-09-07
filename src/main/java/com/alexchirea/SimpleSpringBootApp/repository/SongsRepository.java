@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 public class SongsRepository {
 
     private static List<Song> songs = Arrays.asList(
+            new Song("Aarambha", "manoj kumar", 2022),
             new Song("Miss You", "The Rolling Stones", 1978),
             new Song("Running on Empty", "Jackson Browne", 1977),
             new Song("I Will Survive", "Gloria Gaynor", 1978)
